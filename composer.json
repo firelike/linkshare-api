@@ -16,10 +16,16 @@
       "email": "takuto.hayashi@rakuten.com"
     }
   ],
+  "repositories": [
+    {
+      "url": "https://github.com/firelike/oauth2-linkshare.git",
+      "type": "git"
+    }
+  ],
   "require": {
     "php": ">=5.6",
     "nesbot/carbon": "~1.21",
-    "linkshare/oauth2-linkshare": "@dev"
+    "linkshare/oauth2-linkshare": "^1.0.4"
   },
   "require-dev": {
     "fabpot/php-cs-fixer": "~1.11",
